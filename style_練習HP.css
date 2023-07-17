@@ -1,0 +1,80 @@
+/*--共通部分--*/
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+
+h1{
+    color:whitesmoke;
+    margin: 0;
+    font-size: 24px;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+li{
+    list-style: none;
+    margin: 30px;
+}
+/*--header--*/
+header{
+    background: #0c5661;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-nav{
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.header-nav-left{
+    display: flex;
+}
+
+.header-nav-right{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 10px;
+    padding-left: 0;
+}
+
+/*--profile--*/
+.profile-main{
+    display: flex;
+    
+}
+
+.profile-image{
+    margin: 40px;
+}
+
+.profile-text{
+    font-size: 20px;
+}
+
+/*--p&p--*/
+.p-p{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+/*--portfolio--*/
+.portfolio{
+    margin-left: 40px;
+}
