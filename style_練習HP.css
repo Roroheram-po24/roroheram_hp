@@ -1,6 +1,9 @@
 /*--共通部分--*/
 body{
-    margin: 0;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 500px;
+    margin: 0 auto;
     background-color: #efefef;
 }
 
